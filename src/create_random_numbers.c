@@ -9,9 +9,6 @@ int main(void) {
 	uint32_t	max_range_random = 1024;
 	FILE	*random_file_ptr;
 
-    // Remove file to ensure that the file is cleared before adding new data
-    // remove("random_numbers.txt");
-
 	// Provide statement on the range of random numbers to generate
 	printf("This program will create a file named random_numbers.txt to store a user specified\n");
 	printf(" number of random numbers whose max number equals %d\n\n", max_range_random - 1);
@@ -28,7 +25,7 @@ int main(void) {
 	srand(seed);
 
 	// open file to write random numbers
-	random_file_ptr = fopen("random_numbers.txt","w");
+	random_file_ptr = fopen("../src/random_numbers.txt","w");
 	
 	// write random numbers into file
 	// random numbers are 0 thru 1023
