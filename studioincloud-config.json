@@ -15,5 +15,18 @@
     "flags": [],
     "libraries": [],
     "assemblyFlags": []
+  },
+  "debugConfigOptions": {
+    "stopAtStartup": true,
+    "debuggerRadio": {
+      "1": true,
+      "2": false,
+      "3": false
+    },
+    "debuggerInput": {
+      "1": "main",
+      "2": "",
+      "3": ""
+    }
   }
 }
