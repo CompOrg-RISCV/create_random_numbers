@@ -37,5 +37,5 @@ int main(void) {
 	fclose(random_file_ptr);
 	
 	// Printf statement signifying end of program
-	printf("\nFile, %s, with %d random numbers has been generated.\n", "random_numbers.txt", num_of_random_num);
+	printf("\n*** File, %s, with %d random numbers has been generated.\n", "random_numbers.txt ***", num_of_random_num);
 }
