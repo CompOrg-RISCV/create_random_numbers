@@ -14,11 +14,11 @@ int main(void) {
 	printf(" number of random numbers whose max number equals %d\n\n", max_range_random - 1);
 
 	// Determine the desired amount of random numbers
-	printf("How many random numbers to generate? ");
+	printf("How many random numbers to generate?\n");
 	scanf("%d",&num_of_random_num);
 
 	// Create seed by using combining first and last initial
-	printf("\nInput a number between 10 and 1000 to create the random number generator seed: ");
+	printf("\nInput a number between 10 and 1000 to create the random number generator seed:\n");
 	scanf("%d",&seed);
 
 	// set random number seed
